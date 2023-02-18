@@ -104,37 +104,37 @@ const Tokenomics = () => {
                     <div className='text-left lg:text-lg md:text-md text-sm font-semibold font-saira mb-5 lg:mb-0'>
                         <div className="flex items-center gap-x-2">
                             <div className="min-w-8 w-8 h-3 bg-[#36a2eb]"></div>
-                            <p className='text-white'>Fairlunch</p>
+                            <p className='text-white'>Fairlaunch</p>
                         </div>
 
                         <div className="flex items-center gap-x-2">
                             <div className="w-8 h-3 bg-[#ff6384]"></div>
-                            <p className='text-white'>LP</p>
+                            <p className='text-white'>Liquidity Pool/p>
                         </div>
 
                         <div className="flex items-center gap-x-2">
                             <div className="w-8 h-3 bg-[#ff9f40]"></div>
-                            <p className='text-white'>Marketing locked until 26th Feb</p>
+                            <p className='text-white'>Marketing</p>
                         </div>
 
                         <div className="flex items-center gap-x-2">
                             <div className="w-8 h-3 bg-[#ffcd56]"></div>
-                            <p className='text-white md:max-w-[30rem] max-w-[15rem]'>Staking. 5% unlocks in a week. Other 5% in a month. Other 5% in 50 days from launch.</p>
+                            <p className='text-white md:max-w-[30rem] max-w-[15rem]'>Staking</p>
                         </div>
 
                         <div className="flex items-center gap-x-2">
                             <div className="w-8 h-3 bg-[#4bc0c0]"></div>
-                            <p className='text-white'>Advisors Locked for 1 week.</p>
+                            <p className='text-white'>Advisors</p>
                         </div>
 
                         <div className="flex items-center gap-x-2">
                             <div className="w-8 h-3 bg-[#9966ff]"></div>
-                            <p className='text-white'>Cex listings Locked for 10 days</p>
+                            <p className='text-white'>Cex listings</p>
                         </div>
 
                         <div className="flex items-center gap-x-2">
                             <div className="w-8 h-3 bg-[#36a2eb]"></div>
-                            <p className='text-white md:max-w-[30rem] max-w-[15rem]'>Burn 10% locked until 26th. 5% locked for a month</p>
+                            <p className='text-white md:max-w-[30rem] max-w-[15rem]'>Burn</p>
                         </div>
 
                     </div>
