@@ -54,10 +54,10 @@ const Clock = () => {
             <h2 className='text-center mt-10 font-bold text-2xl text-header uppercase font-saira'>Pre-sale will be live in</h2>
 
             <div className='flex sm:gap-x-4 gap-x-2 mx-auto w-fit mt-5'>
-                <TimeBox time={countdownTime.countdownDays} label="days" />
-                <TimeBox time={countdownTime.countdownHours} label="hours" />
-                <TimeBox time={countdownTime.countdownMinutes} label="minutes" />
-                <TimeBox time={countdownTime.countdownSeconds} label="seconds" />
+                <TimeBox time={countdownTime.countdownDays} label="Day/s" />
+                <TimeBox time={countdownTime.countdownHours} label="Hour/s" />
+                <TimeBox time={countdownTime.countdownMinutes} label="Minute/s" />
+                <TimeBox time={countdownTime.countdownSeconds} label="Second/s" />
 
             </div>
         </div>
