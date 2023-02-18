@@ -109,7 +109,7 @@ const Tokenomics = () => {
 
                         <div className="flex items-center gap-x-2">
                             <div className="w-8 h-3 bg-[#ff6384]"></div>
-                            <p className='text-white'>Liquidity Pool/p>
+                            <p className='text-white'>Liquidity Pool</p>
                         </div>
 
                         <div className="flex items-center gap-x-2">
