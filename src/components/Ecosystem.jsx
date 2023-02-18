@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer'
 import { Parallax } from 'react-scroll-parallax'
 import { Ecoleft, Ecoright } from '../templates/Eco'
 import { motion } from 'framer-motion'
+import Clock from './Clock'
 
 const Ecosystem = () => {
 
@@ -13,17 +14,36 @@ const Ecosystem = () => {
         <section className='w-full h-auto min-h-screen bg-darker shadow-eco text-white px-10 pb-[13rem] z-9' >
             <div className="w-full mx-auto max-w-[1700px]" id="ecosystem" >
                 <Parallax translateY={[0, -100]}>
-                    <div className='max-w-[55rem] 2xl:max-w-[65rem] w-full border-[1px] border-white rounded-xl mx-auto lg:p-12 p-8 pb-20 relative bg-darker'>
-                        <h1 className='font-saira text-3xl text-header font-semibold text-center uppercase'>What are we?</h1>
-                        <p className='text-center lg:mt-7 mt-5 max-w-[30rem] 2xl:max-w-[35rem] mx-auto text-sm lg:text-md 2xl:text-lg font-poppins'>Web AI is an innovative project that uses Artificial Intelligence &#40;AI&#41; technology to create customized websites from scratch. It utilizes deep learning algorithms and natural language processing &#40;NLP&#41; to analyze user requests and generate attractive, user-friendly websites according to their preferences. With its intuitive design, Web AI simplifies the website creation process and enables users to develop professional-looking websites for any purpose without manual coding.</p>
-                        <div className='hidden lg:block'>
-                            <img alt="side" src="/sides.webp" className='absolute top-0 bottom-0 my-auto left-0'></img>
-                            <img alt="side" src="/sides.webp" className='absolute top-0 bottom-0 my-auto right-0 rotate-180'></img>
+                    <div className='max-w-[55rem] 2xl:max-w-[65rem] w-full border-[1px] border-white rounded-xl mx-auto lg:p-12 sm:p-8 p-3 pb-20 relative bg-darker'>
+                        <div className='p-8'>
+                            <h1 className='font-saira text-3xl text-header font-semibold text-center uppercase'>What are we?</h1>
+                            <p className='text-center lg:mt-7 mt-5 max-w-[30rem] 2xl:max-w-[35rem] mx-auto text-sm lg:text-md 2xl:text-lg font-poppins'>Web AI is an innovative project that uses Artificial Intelligence &#40;AI&#41; technology to create customized websites from scratch. It utilizes deep learning algorithms and natural language processing &#40;NLP&#41; to analyze user requests and generate attractive, user-friendly websites according to their preferences. With its intuitive design, Web AI simplifies the website creation process and enables users to develop professional-looking websites for any purpose without manual coding.</p>
+                            <div className='hidden lg:block'>
+                                <img alt="side" src="/sides.webp" className='absolute top-0 bottom-0 my-auto left-0'></img>
+                                <img alt="side" src="/sides.webp" className='absolute top-0 bottom-0 my-auto right-0 rotate-180'></img>
+                            </div>
                         </div>
-                        <button className='bg-transparent border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg mt-10 hover:bg-white cursor-pointer z-10 relative transition-colors ease-in-out duration-300 mx-auto font-medium block hover:text-black'>
-                            <p>Whitepaper</p>
-                        </button>
-                    </div>  
+
+
+                        <Clock />
+
+                        <div className='flex w-fit mx-auto mt-10 gap-x-6 md:flex-row flex-col items-center gap-y-5'>
+                            <button className='bg-transparent border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg hover:bg-white cursor-pointer z-10 relative transition-colors ease-in-out duration-300 font-medium block hover:text-black'>
+                                <p>Whitepaper</p>
+                            </button>
+
+                            <button className='bg-transparent border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg hover:bg-white cursor-pointer z-10 relative transition-colors ease-in-out duration-300 font-medium block hover:text-black'>
+                                <p>AUDIT</p>
+                            </button>
+
+                            <button className='bg-transparent border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg hover:bg-white cursor-pointer z-10 relative transition-colors ease-in-out duration-300 font-medium block hover:text-black'>
+                                <p>KYC</p>
+                            </button>
+
+
+                        </div>
+
+                    </div>
                 </Parallax>
 
                 <h1 className='font-saia text-5xl text-center font-bold uppercase mb-[10rem]' ref={ecoRef}>Ecosystem</h1>
