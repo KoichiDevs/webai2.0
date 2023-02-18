@@ -5,8 +5,10 @@ import { HiEnvelope } from 'react-icons/hi2'
 
 const Footer = () => {
     return (
-        <section className='w-full h-[20rem] py-20 bg-black px-20 text-white relative'>
-            <h1 className='font-saira lg:text-8xl font-black text-5xl text-center'>WEB AI</h1>
+        <section className='w-full h-[20rem] py-16 bg-black px-20 text-white relative'>
+            <a href="#home" rel="no">
+                <img src="/logo.webp" alt="Logo" className="w-32 mx-auto cursor-pointer" />
+            </a>
 
             <div className='mx-auto w-fit mt-4 flex gap-x-6 text-4xl'>
                 <a href="https://twitter.com/WebAIofficial" target="_blank">
