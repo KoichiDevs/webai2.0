@@ -29,15 +29,15 @@ const Ecosystem = () => {
 
                         <div className='flex w-fit mx-auto mt-10 gap-x-6 md:flex-row flex-col items-center gap-y-5'>
                             <button className='bg-transparent border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg hover:bg-white cursor-pointer z-10 relative transition-colors ease-in-out duration-300 font-medium block hover:text-black'>
-                                <a href="https://webai.gitbook.io/webai-litepaper/">Whitepaper</a>
+                                <a href="https://webai.gitbook.io/webai-litepaper/" target="_blank">Whitepaper</a>
                             </button>
 
                             <button className='bg-transparent border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg hover:bg-white cursor-pointer z-10 relative transition-colors ease-in-out duration-300 font-medium block hover:text-black'>
-                                <p>AUDIT</p>
+                                <a href="https://github.com/SpyWolfNetwork/Smart_Contract_Audits/blob/main/February_2023/WebAI_0x7C5E8A22a4e8f9dA2797a9e30E9d64aBF5493C43.pdf" target="_blank">AUDIT</a>
                             </button>
 
                             <button className='bg-transparent border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg hover:bg-white cursor-pointer z-10 relative transition-colors ease-in-out duration-300 font-medium block hover:text-black'>
-                                <p>KYC</p>
+                                <a href="https://pinksale.notion.site/WebAI-KYC-Verification-ed846629a664429a8b512fa71b635474" target="_blank">KYC</a>
                             </button>
 
 
