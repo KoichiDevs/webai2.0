@@ -3,7 +3,7 @@ import TimeBox from '../utils/TimeBox';
 
 const Clock = () => {
 
-    const [expiryTime, setExpiryTime] = useState("22 feb 2023 19:00:00 UTC");
+    const [expiryTime, setExpiryTime] = useState("25 feb 2023 19:00:00 UTC");
     const [countdownTime, setCountdownTime] = useState({
         countdownDays: "",
         countdownHours: "",
