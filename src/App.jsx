@@ -8,6 +8,7 @@ import Tokenomics from './components/Tokenomics'
 import Roadmap from './components/Roadmap'
 import Footer from './components/Footer'
 import FAQ from './components/FAQ'
+import Partners from './components/Partners'
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
 
 
       <Roadmap />
+      <Partners/>
       <FAQ />
       <Footer />
 
