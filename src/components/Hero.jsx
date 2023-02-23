@@ -33,7 +33,7 @@ const Hero = () => {
 
                             <div className='flex gap-x-3 flex-col lg:flex-row items-center justify-center lg:justify-start gap-y-5'>
                                 <motion.button initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 100 }} transition={{ duration: 1, delay: 0.15 }} className='bg-button px-12 py-3 w-fit h-fit rounded-lg mt-10 hover:bg-[#040B9E] cursor-pointer z-10 relative transition-colors ease-in-out duration-300 mx-auto lg:mx-0 font-medium'>
-                                    <a href="https://www.pinksale.finance/launchpad/0xABC24C27d8bbDC4921E032C88FEae2fB9672bB50?chain=BSC&refId=0x4034ffB97E115c216B273fb85327337dc704BDeC"  target="_blank">Buy Token</a>
+                                    <a href="https://www.pinksale.finance/launchpad/0xABC24C27d8bbDC4921E032C88FEae2fB9672bB50?chain=BSC&refId=0x4034ffB97E115c216B273fb85327337dc704BDeC"  target="_blank">Buy Presale</a>
                                 </motion.button>
 
                                 <motion.button initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 100 }} transition={{ duration: 1, delay: 0.15 }} className='border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg lg:mt-10 hover:bg-white hover:text-black cursor-pointer z-10 relative transition-colors ease-in-out duration-300 mx-auto lg:mx-0 font-medium'>
