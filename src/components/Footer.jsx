@@ -15,11 +15,11 @@ const Footer = () => {
                     <SiTwitter className='hover:scale-[1.1] cursor-pointer transition-all ease-in-out' />
                 </a>
 
-                <a href="https://twitter.com/WebAIofficial" target="_blank">
+                <a href="https://t.me/WebAIofficial" target="_blank">
                     <FaTelegramPlane className='hover:scale-[1.1] cursor-pointer transition-all ease-in-out' />
                 </a>
 
-                <a href="https://twitter.com/WebAIofficial" target="_blank">
+                <a href="mailto:contact@webai.live" target="_blank">
                     <HiEnvelope className='hover:scale-[1.1] cursor-pointer transition-all ease-in-out' />
                 </a>
 
