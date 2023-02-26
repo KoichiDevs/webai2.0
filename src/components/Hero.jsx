@@ -37,7 +37,7 @@ const Hero = () => {
                                 </motion.button>
 
                                 <motion.button initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 100 }} transition={{ duration: 1, delay: 0.15 }} className='border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg lg:mt-10 hover:bg-white hover:text-black cursor-pointer z-10 relative transition-colors ease-in-out duration-300 mx-auto lg:mx-0 font-medium'>
-                                    <a href="https://www.dexview.com/bsc/0x3Bc0f4F178666311F51e028FC3C1d5b561cB1dF6" target="_blank">Chart</p>
+                                    <a href="https://www.dexview.com/bsc/0x3Bc0f4F178666311F51e028FC3C1d5b561cB1dF6" target="_blank">Chart</a>
                                 </motion.button>
                             </div>
 
