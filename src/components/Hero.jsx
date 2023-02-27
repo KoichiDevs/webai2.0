@@ -7,7 +7,7 @@ import { MdCopyAll, MdOutlineClose } from 'react-icons/md'
 
 const Hero = () => {
 
-    const [contactAddress, setContact] = useState('0x3Bc0f4F178666311F51e028FC3C1d5b561cB1dF6')
+    const [contactAddress, setContact] = useState('0x7c5e8a22a4e8f9da2797a9e30e9d64abf5493c43')
     const [clicked, setClicked] = useState(false)
     const [buttonActive, setActive] = useState(false)
 
@@ -108,7 +108,7 @@ const Hero = () => {
                             <div className='flex gap-x-3 flex-col lg:flex-row items-center justify-center lg:justify-start gap-y-5'>
 
                                 <motion.button initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 100 }} transition={{ duration: 1, delay: 0.15 }} className='bg-button px-12 py-3 w-fit h-fit rounded-lg mt-10 hover:bg-[#040B9E] cursor-pointer z-10 relative transition-colors ease-in-out duration-300 mx-auto lg:mx-0 font-medium'>
-                                    <a href="https://pancakeswap.finance/swap?outputCurrency=0x3Bc0f4F178666311F51e028FC3C1d5b561cB1dF6" target="_blank">Buy Token</a>
+                                    <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c5e8a22a4e8f9da2797a9e30e9d64abf5493c43" target="_blank">Buy Token</a>
                                 </motion.button>
 
 
