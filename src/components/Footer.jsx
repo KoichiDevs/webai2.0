@@ -2,6 +2,7 @@ import React from 'react'
 import { SiTwitter } from 'react-icons/si'
 import { FaTelegramPlane } from 'react-icons/fa'
 import { HiEnvelope } from 'react-icons/hi2'
+import { AiFillYoutube } from 'react-icons/ai'
 
 const Footer = () => {
     return (
@@ -19,9 +20,15 @@ const Footer = () => {
                     <FaTelegramPlane className='hover:scale-[1.1] cursor-pointer transition-all ease-in-out' />
                 </a>
 
+                <a href="https://www.youtube.com/channel/UCJTR5fP9lqinmLyK38qj9-g" target="_blank">
+                    <AiFillYoutube className='hover:scale-[1.1] cursor-pointer transition-all ease-in-out' />
+                </a>
+
                 <a href="mailto:contact@webai.live" target="_blank">
                     <HiEnvelope className='hover:scale-[1.1] cursor-pointer transition-all ease-in-out' />
                 </a>
+
+                
 
 
 
