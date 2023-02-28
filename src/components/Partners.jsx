@@ -32,7 +32,7 @@ const Partners = () => {
             image: 'avedex'
         },
         {
-            link: '',
+            link: 'https://www.bitmart.com/en-US',
             image: 'bitmart'
         },
 
