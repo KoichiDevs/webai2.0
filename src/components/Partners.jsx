@@ -60,9 +60,8 @@ const Partners = () => {
                 </div>
 
                 <div className="flex justify-around w-fit gap-x-20 mt-20 lg:flex-row flex-col-reverse lg:items-start items-center gap-y-10">
-                    <div className="w-fit  shadow-glow h-fit bg-white rounded-xl">
-
-                        <Tweet tweetId='1630223208291901442'/>
+                    <div className="shadow-glow h-fit bg-white rounded-xl  md:w-[25rem] w-[20rem]">
+                        <Tweet tweetId='1630223208291901442' className="w-full"/>
                     </div>
                     <div className="max-w-[25rem]">
                         <motion.h1 initial={{ x: 100, opacity: 0 }} animate={bitView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.7 }} className="font-saira lg:text-4xl text-3xl font-bold" ref={bitRef}>We are now partnered with BitMart</motion.h1>
