@@ -1,6 +1,6 @@
 
 // import { TwitterEmbed } from 'react-social-media-embed';
-import { TwitterTweetEmbed } from "react-twitter-embed";
+import { Tweet } from 'react-twitter-widgets'
 import PartnerTemplate from '../utils/PartnerTemplate';
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion';
@@ -62,10 +62,7 @@ const Partners = () => {
                 <div className="flex justify-around w-fit gap-x-20 mt-20 lg:flex-row flex-col-reverse lg:items-start items-center gap-y-10">
                     <div className="w-fit  shadow-glow h-fit bg-white rounded-xl">
 
-                        {/* <TwitterEmbed url="https://twitter.com/BitMartExchange/status/1630223208291901442?s=20" width={325} /> */}
-                        <TwitterTweetEmbed
-                            tweetId={'1630223208291901442'}
-                        />
+                        <Tweet tweetId='1630223208291901442'/>
                     </div>
                     <div className="max-w-[25rem]">
                         <motion.h1 initial={{ x: 100, opacity: 0 }} animate={bitView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.7 }} className="font-saira lg:text-4xl text-3xl font-bold" ref={bitRef}>We are now partnered with BitMart</motion.h1>
