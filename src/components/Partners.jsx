@@ -1,13 +1,14 @@
 import React from 'react'
 // import { TwitterEmbed } from 'react-social-media-embed';
+import { TwitterTweetEmbed } from "react-twitter-embed";
 import PartnerTemplate from '../utils/PartnerTemplate';
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion';
 
 const Partners = () => {
 
-    const [bitRef, bitView] = useInView({triggerOnce: true, threshold: 0.8})
-    const [descRef, descView] = useInView({triggerOnce: true, threshold: 0.8})
+    const [bitRef, bitView] = useInView({ triggerOnce: true, threshold: 0.8 })
+    const [descRef, descView] = useInView({ triggerOnce: true, threshold: 0.8 })
 
 
     const partnerList = [
@@ -62,11 +63,14 @@ const Partners = () => {
                     <div className="w-fit  shadow-glow h-fit bg-white rounded-xl">
 
                         {/* <TwitterEmbed url="https://twitter.com/BitMartExchange/status/1630223208291901442?s=20" width={325} /> */}
+                        <TwitterTweetEmbed
+                            tweetId={'1630223208291901442'}
+                        />
                     </div>
                     <div className="max-w-[25rem]">
-                        <motion.h1 initial={{x: 100, opacity: 0}} animate={bitView ? {opacity: 1, x: 0} : {}} transition={{duration: 0.7}} className="font-saira lg:text-4xl text-3xl font-bold" ref={bitRef}>We are now partnered with BitMart</motion.h1>
+                        <motion.h1 initial={{ x: 100, opacity: 0 }} animate={bitView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.7 }} className="font-saira lg:text-4xl text-3xl font-bold" ref={bitRef}>We are now partnered with BitMart</motion.h1>
 
-                        <motion.div initial={{x: 100, opacity: 0}} animate={descView ? {opacity: 1, x: 0} : {}} transition={{duration: 0.7}}  className="flex flex-col gap-y-8 mt-4 font-poppins" ref={descRef}>
+                        <motion.div initial={{ x: 100, opacity: 0 }} animate={descView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.7 }} className="flex flex-col gap-y-8 mt-4 font-poppins" ref={descRef}>
                             <p className=''>BitMart is a global cryptocurrency exchange that allows users in 180+ countries to buy and sell over 1,000 digital currencies and tokens.</p>
 
                             <p>While BitMart offers all the features you’d expect from a global crypto exchange, it was hacked in December 2021, which resulted in an estimated $196 million cryptocurrency theft.</p>
