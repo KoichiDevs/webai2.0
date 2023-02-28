@@ -1,4 +1,4 @@
-import React from 'react'
+
 // import { TwitterEmbed } from 'react-social-media-embed';
 import { TwitterTweetEmbed } from "react-twitter-embed";
 import PartnerTemplate from '../utils/PartnerTemplate';
