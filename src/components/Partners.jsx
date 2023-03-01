@@ -69,7 +69,7 @@ const Partners = () => {
                         <motion.div initial={{ x: 100, opacity: 0 }} animate={descView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.7 }} className="flex flex-col gap-y-8 mt-4 font-poppins" ref={descRef}>
                             <p className=''>BitMart is a global cryptocurrency exchange that allows users in 180+ countries to buy and sell over 1,000 digital currencies and tokens.</p>
 
-                            <p>While BitMart offers all the features you’d expect from a global crypto exchange, it was hacked in December 2021, which resulted in an estimated $196 million cryptocurrency theft.</p>
+                           
                         </motion.div>
 
                     </div>
