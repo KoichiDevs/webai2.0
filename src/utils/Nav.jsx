@@ -25,7 +25,7 @@ const Nav = () => {
        {
        label:'roadmap',
        link: ''
-       }
+       },
     ]
     const [active, setActive] = useState(false)
 
