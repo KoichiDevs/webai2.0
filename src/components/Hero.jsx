@@ -111,7 +111,9 @@ const Hero = () => {
                                     <a href="https://pancakeswap.finance/swap?outputCurrency=0x7c5e8a22a4e8f9da2797a9e30e9d64abf5493c43" target="_blank">Buy Token</a>
                                 </motion.button>
 
-
+                                <motion.button initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 100 }} transition={{ duration: 1, delay: 0.15 }} className='bg-button px-12 py-3 w-fit h-fit rounded-lg mt-10 hover:bg-[#040B9E] cursor-pointer z-10 relative transition-colors ease-in-out duration-300 mx-auto lg:mx-0 font-medium'>
+                                    <a href="https://www.bitmart.com/en?r=WEBAI" target="_blank">Buy on BitMart</a>
+                                </motion.button>
 
                                 <motion.button initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 100 }} transition={{ duration: 1, delay: 0.15 }} className='border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg lg:mt-10 hover:bg-white hover:text-black cursor-pointer z-10 relative transition-colors ease-in-out duration-300 mx-auto lg:mx-0 font-medium' onClick={open}>
                                     <p>Chart</p>
