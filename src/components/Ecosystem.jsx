@@ -39,7 +39,9 @@ const Ecosystem = () => {
                                 <a href="https://pinksale.notion.site/WebAI-KYC-Verification-ed846629a664429a8b512fa71b635474" target="_blank">KYC</a>
                             </button>
 
-
+                            <button className='bg-transparent border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg hover:bg-white cursor-pointer z-10 relative transition-colors ease-in-out duration-300 font-medium block hover:text-black'>
+                                <a href="https://contact.webai.live/" target="_blank">Get a Web</a>
+                            </button>
                         </div>
 
                     </div>
