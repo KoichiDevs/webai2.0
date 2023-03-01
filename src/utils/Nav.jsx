@@ -5,13 +5,7 @@ import { motion } from 'framer-motion'
 
 const Nav = () => {
 
-        const list = [
-        { name: 'home', link: '#home' },
-        { name: 'Get A Web', link: 'https://contact.webai.live/' },
-        { name: 'ecosystem', link: '#ecosystem' },
-        { name: 'tokenomics', link: '#tokenomics' },
-        { name: 'roadmap', link: '#roadmap' }
-    ]
+    const list = ['home', 'Get A Web', 'ecosystem', 'tokenomics', 'roadmap']
          
     const [active, setActive] = useState(false)
 
