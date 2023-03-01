@@ -5,7 +5,13 @@ import { motion } from 'framer-motion'
 
 const Nav = () => {
 
-    const list = ['home', 'Get A Web', 'ecosystem', 'tokenomics', 'roadmap']
+    const list = [
+  { name: 'Home', link: '#home' },
+  { name: 'Get A Web', link: 'https://contact.webai.live' },
+  { name: 'Ecosystem', link: '#ecosystem' },
+  { name: 'Tokenomics', link: '#tokenomics' },
+  { name: 'Roadmap', link: '#roadmap' }
+];
          
     const [active, setActive] = useState(false)
 
@@ -23,15 +29,17 @@ const Nav = () => {
                 <ul className='items-center gap-x-12 flex lg:relative fixed right-0 lg:w-auto lg:h-auto w-full h-full top-0 justify-center lg:justify-start flex-col lg:flex-row bg-[#111111] lg:bg-transparent gap-y-20 text-xl lg:text-sm opacity-0 transition-all ease-in-out duration-300 lg:opacity-100 lg:pointer-events-auto pointer-events-none' style={active ? { opacity: "100%", pointerEvents: "auto" } : {}}>
 
                     <li className='absolute lg:hidden block text-4xl top-10 right-10'><RiCloseFill onClick={setToggle} /></li>
-                    {list.map((items) => {
-                        return (
-                            <div className='flex flex-col items-center gap-y-[5px] select-none' key={items} >
-                                <a href={`#${items}`} className="peer">
-                                    <li className="uppercase font-medium cursor-pointer peer hover:text-header transition-colors ease-in-out duration-300" onClick={() => { setActive(false) }}>{items}</li>
-                                </a>
-                                <div className='h-[2px] w-0 bg-header peer-hover:w-full transition-all ease-in-out duration-300'></div>
-                            </div>
-                        )
+                    {list.map((item) => {
+                      return (
+                        <div className='flex flex-col items-center gap-y-[5px] select-none' key={item.name}>
+                          <a href={item.link} className="peer">
+                            <li className="uppercase font-medium cursor-pointer peer hover:text-header transition-colors ease-in-out duration-300" onClick={() => { setActive(false) }}>
+                              {item.name}
+                            </li>
+                          </a>
+                          <div className='h-[2px] w-0 bg-header peer-hover:w-full transition-all ease-in-out duration-300'></div>
+                        </div>
+                      )
                     })}
                 </ul>
 
