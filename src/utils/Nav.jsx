@@ -5,7 +5,28 @@ import { motion } from 'framer-motion'
 
 const Nav = () => {
 
-    const list = ['home', 'ecosystem', 'tokenomics', 'roadmap']
+    const list = [
+         {
+       label: 'home',
+       link:''
+         },
+        {
+        label: 'ecosystem',
+        link: ''
+        },
+        {
+        label: 'Get A Web',
+        link: 'https://contact.webai.live/'
+        },
+       {
+        label:'tokenomics',
+        link: ''
+       },
+       {
+       label:'roadmap',
+       link: ''
+       }
+    ]
     const [active, setActive] = useState(false)
 
     const setToggle = () => {
