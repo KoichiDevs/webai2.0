@@ -24,7 +24,7 @@ const Ecosystem = () => {
                             </div>
                         </div>
 
-                        <Clock />
+                       
                             
                         <div className='flex w-fit mx-auto mt-10 gap-x-6 md:flex-row flex-col items-center gap-y-5'>
                             <button className='bg-transparent border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg hover:bg-white cursor-pointer z-10 relative transition-colors ease-in-out duration-300 font-medium block hover:text-black'>
